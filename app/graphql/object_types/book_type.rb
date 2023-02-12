@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Types
+module ObjectTypes
   class BookType < Types::BaseObject
     field :id, ID, null: false
     field :title, String
